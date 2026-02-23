@@ -1,0 +1,7 @@
+{
+  "name": "mrgnl-agents",
+  "version": "0.1.0",
+  "description": "Shared agents and skills for the Marginalia multi-repo Go microservices platform",
+  "author": { "name": "marginal-ia" },
+  "repository": "https://github.com/marginal-ia/mrgnl-agents"
+}
