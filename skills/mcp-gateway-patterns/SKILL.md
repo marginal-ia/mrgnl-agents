@@ -1,7 +1,6 @@
 ---
 name: mcp-gateway-patterns
 description: MCP dispatch table, REST routes, SSE endpoint, auth middleware, environment variables
-user-invocable: false
 ---
 
 # MCP Gateway Patterns — Marginalia

@@ -1,7 +1,6 @@
 ---
 name: grpc-service-patterns
 description: gRPC handler signatures, error codes, server setup, Cloud Map, environment variables
-user-invocable: false
 ---
 
 # gRPC Service Patterns — Marginalia

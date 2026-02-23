@@ -1,7 +1,6 @@
 ---
 name: docker-build-patterns
 description: Multi-stage Dockerfile patterns, distroless images, CGO_ENABLED=0, ECS Fargate deployment
-user-invocable: false
 ---
 
 # Docker Build Patterns — Marginalia

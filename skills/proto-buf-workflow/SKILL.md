@@ -1,7 +1,6 @@
 ---
 name: proto-buf-workflow
 description: Protobuf conventions, buf toolchain, and REST annotation patterns
-user-invocable: false
 ---
 
 # Proto / Buf Workflow — Marginalia
