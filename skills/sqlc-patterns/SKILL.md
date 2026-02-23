@@ -1,7 +1,6 @@
 ---
 name: sqlc-patterns
 description: sqlc query patterns, pgx driver, ULID generation, table ownership, FTS, S3 split
-user-invocable: false
 ---
 
 # sqlc Patterns — Marginalia

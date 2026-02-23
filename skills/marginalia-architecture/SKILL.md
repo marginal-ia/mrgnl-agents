@@ -1,7 +1,6 @@
 ---
 name: marginalia-architecture
 description: Platform overview, dependency graph, transport layers, ports, AWS topology
-user-invocable: false
 ---
 
 # Marginalia Architecture

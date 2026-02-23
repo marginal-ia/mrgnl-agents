@@ -1,7 +1,6 @@
 ---
 name: go-conventions
 description: Shared Go conventions for all Marginalia repos
-user-invocable: false
 ---
 
 # Go Conventions — Marginalia

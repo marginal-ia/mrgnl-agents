@@ -1,22 +1,16 @@
 {
-  "hooks": [
-    {
-      "event": "PostToolUse",
-      "matcher": {
-        "tool": ["Write", "Edit"],
-        "file_pattern": "*.proto"
-      },
-      "type": "prompt",
-      "prompt": "You just edited a .proto file. Remember to run `buf lint` and `buf breaking --against .git#branch=main` before committing. After validation, run `buf generate` to regenerate Go code and commit generated files alongside proto changes."
-    },
-    {
-      "event": "PostToolUse",
-      "matcher": {
-        "tool": ["Write", "Edit"],
-        "file_pattern": "**/queries/*.sql"
-      },
-      "type": "prompt",
-      "prompt": "You just edited a sqlc query file. Remember to run `sqlc generate` to regenerate the Go code before committing."
-    }
-  ]
+  "description": "Reminders for buf and sqlc workflows after editing proto or query files",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "Check if the file just edited is a .proto file. If so, remind the user to run `buf lint` and `buf breaking --against .git#branch=main` before committing, then `buf generate` to regenerate Go code. If the file is a .sql file under a queries/ directory, remind to run `sqlc generate`."
+          }
+        ]
+      }
+    ]
+  }
 }

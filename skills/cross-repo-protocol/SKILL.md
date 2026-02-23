@@ -1,7 +1,6 @@
 ---
 name: cross-repo-protocol
 description: Full coordination protocol, dependency graph, and impact table for cross-repo changes
-user-invocable: false
 ---
 
 # Cross-Repo Coordination Protocol — Marginalia

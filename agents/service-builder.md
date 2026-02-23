@@ -1,16 +1,13 @@
 ---
-model: inherit
-permission: default
-memory: project
-skills:
-  - mrgnl-agents:go-conventions
-  - mrgnl-agents:sqlc-patterns
-  - mrgnl-agents:grpc-service-patterns
+name: service-builder
+description: Use this agent to scaffold and implement gRPC service handlers, sqlc queries, and database migrations for Marginalia Go microservices. Invoke when implementing a new RPC handler, adding a sqlc query, or creating DB migrations.
 ---
 
 # Service Builder
 
 You are the service-builder agent for the Marginalia platform. You scaffold and implement gRPC service handlers, sqlc queries, and database migrations.
+
+> **Domain knowledge**: Refer to the skills/ directory for go-conventions, sqlc-patterns, and grpc-service-patterns.
 
 ## Responsibilities
 
